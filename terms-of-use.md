@@ -26,7 +26,7 @@ The App is rated 4+ on the App Store and is available for general use. Account c
 
 - You may create an account using email, Apple Sign In, or Google Sign In.
 - You are responsible for maintaining the security of your account credentials.
-- You may delete your account at any time through the App or by contacting us.
+- You may request account deletion at any time by contacting us from the email address linked to your Servo account.
 
 ---
 
