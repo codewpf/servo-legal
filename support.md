@@ -78,7 +78,7 @@
   A: Make sure you're connected to the internet and that your credentials are correct. If the issue persists, please email us with the exact error message you see.
 
   **Q: How do I delete my account?**
-  A: Email **alex.pengfei.wang@gmail.com** from the address linked to your account, and we'll remove all associated data within 7 days, in line with App Store guidelines.
+  A: Email **alex.pengfei.wang@gmail.com** from the address linked to your account with the subject **Account deletion request**. We do not currently provide an in-app delete-account button. We'll remove associated account data within 7 days, in line with App Store guidelines.
 
   ---
 

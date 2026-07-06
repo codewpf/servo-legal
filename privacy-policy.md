@@ -60,7 +60,7 @@ We do **not** use your information for:
 - **Backend**: Your data is stored on [Supabase](https://supabase.com), which uses Amazon Web Services (AWS) infrastructure with encryption at rest and in transit.
 - **Region**: Data is stored in the AWS Sydney (ap-southeast-2) region.
 - **Security**: We implement row-level security (RLS) policies to ensure users can only access their own data. All API communication uses HTTPS/TLS encryption.
-- **Retention**: Account data is retained while your account is active. You may request deletion at any time (see Section 6).
+- **Retention**: Account data is retained while your account is active. You may request deletion by email at any time (see Section 6).
 
 ---
 
@@ -93,7 +93,7 @@ Under the **New Zealand Privacy Act 2020**, you have the right to:
 
 - **Access**: Request a copy of the personal information we hold about you.
 - **Correction**: Request correction of any inaccurate personal information.
-- **Deletion**: Request deletion of your account and associated personal data. Note: fuel prices you have submitted are anonymised community data and will not be deleted, as they no longer contain personally identifiable information.
+- **Deletion**: Request deletion of your account and associated personal data by emailing us from the address linked to your Servo account with the subject line "Account deletion request". Note: fuel prices you have submitted are anonymised community data and will not be deleted, as they no longer contain personally identifiable information.
 
 To exercise any of these rights, contact us at the address below. We will respond within 20 working days as required by the Privacy Act 2020.
 
