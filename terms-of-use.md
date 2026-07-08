@@ -4,7 +4,7 @@ title: Terms of Use
 
 # Terms of Use
 
-**Last updated: July 7, 2026**
+**Last updated: July 8, 2026**
 
 Welcome to Servo – NZ Fuel Prices ("the App"). By downloading, accessing, or using the App, you agree to be bound by these Terms of Use ("Terms"). If you do not agree, please do not use the App.
 
@@ -26,7 +26,7 @@ The App is rated 4+ on the App Store and is available for general use. Account c
 
 - You may create an account using email, Apple Sign In, or Google Sign In.
 - You are responsible for maintaining the security of your account credentials.
-- You may delete your account at any time from the App's Profile screen. You may also contact us if you need deletion support.
+- You may delete your account at any time from the App by opening Profile → About Servo → Account → Delete Account. You may also contact us if you need deletion support.
 
 ---
 

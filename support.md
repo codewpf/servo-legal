@@ -78,7 +78,7 @@
   A: Make sure you're connected to the internet and that your credentials are correct. If the issue persists, please email us with the exact error message you see.
 
   **Q: How do I delete my account?**
-  A: Open Servo → Profile → **Delete Account**. This deletes your account and signs you out. If you cannot access the App, email **alex.pengfei.wang@gmail.com** from the address linked to your account with the subject **Account deletion request**.
+  A: Open Servo → Profile → About Servo → Account → **Delete Account**. This deletes your account and signs you out. If you cannot access the App, email **alex.pengfei.wang@gmail.com** from the address linked to your account with the subject **Account deletion request**.
 
   ---
 

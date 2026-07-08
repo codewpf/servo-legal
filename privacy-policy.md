@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Last updated: July 7, 2026**
+**Last updated: July 8, 2026**
 
 Servo ("we", "our", or "us") operates the Servo – NZ Fuel Prices mobile application (the "App"). This Privacy Policy explains how we collect, use, store, and protect your information when you use the App.
 
@@ -94,7 +94,7 @@ Under the **New Zealand Privacy Act 2020**, you have the right to:
 
 - **Access**: Request a copy of the personal information we hold about you.
 - **Correction**: Request correction of any inaccurate personal information.
-- **Deletion**: Delete your account in the App from Profile → Delete Account. You may also contact us for deletion support. Note: fuel prices you have submitted may be retained as anonymised community data when they no longer contain personally identifiable information.
+- **Deletion**: Delete your account in the App from Profile → About Servo → Account → Delete Account. You may also contact us for deletion support. Note: fuel prices you have submitted may be retained as anonymised community data when they no longer contain personally identifiable information.
 
 To exercise any of these rights, contact us at the address below. We will respond within 20 working days as required by the Privacy Act 2020.
 
