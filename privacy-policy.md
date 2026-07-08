@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Last updated: April 11, 2026**
+**Last updated: July 7, 2026**
 
 Servo ("we", "our", or "us") operates the Servo – NZ Fuel Prices mobile application (the "App"). This Privacy Policy explains how we collect, use, store, and protect your information when you use the App.
 
@@ -28,10 +28,10 @@ By using the App, you agree to the collection and use of information as describe
 ### 1.3 User-Submitted Content (UGC)
 - **What**: Fuel prices you submit, including optional photos of price boards.
 - **When**: When you choose to submit a price update.
-- **Why**: To provide up-to-date fuel price information to all users. Photos are processed using on-device OCR and are not stored permanently.
+- **Why**: To provide up-to-date fuel price information to all users. Servo first attempts on-device OCR. If local recognition is not sufficient, the image may be sent to our backend for server-side price recognition. Submitted photos are used only for price recognition, verification, and abuse prevention, and are not displayed publicly.
 
 ### 1.4 Device and Usage Data
-- **What**: Device model, operating system version, app version, and crash reports (via Apple's Xcode Organizer).
+- **What**: Device model, operating system version, app version, diagnostics, and crash reports.
 - **When**: Automatically during app usage.
 - **Why**: To diagnose technical issues and improve app performance.
 
@@ -60,7 +60,7 @@ We do **not** use your information for:
 - **Backend**: Your data is stored on [Supabase](https://supabase.com), which uses Amazon Web Services (AWS) infrastructure with encryption at rest and in transit.
 - **Region**: Data is stored in the AWS Sydney (ap-southeast-2) region.
 - **Security**: We implement row-level security (RLS) policies to ensure users can only access their own data. All API communication uses HTTPS/TLS encryption.
-- **Retention**: Account data is retained while your account is active. You may request deletion by email at any time (see Section 6).
+- **Retention**: Account data is retained while your account is active. You may delete your account in the App at any time (see Section 6).
 
 ---
 
@@ -73,9 +73,10 @@ We use the following third-party services:
 | **Supabase** | Backend, authentication, database | [supabase.com/privacy](https://supabase.com/privacy) |
 | **Apple Sign In** | Authentication | [apple.com/privacy](https://www.apple.com/privacy/) |
 | **Google Sign In** | Authentication (via Supabase Auth) | [policies.google.com/privacy](https://policies.google.com/privacy) |
-| **Apple Xcode Organizer** | Crash reporting | [apple.com/privacy](https://www.apple.com/privacy/) |
+| **Firebase Crashlytics** | Crash diagnostics and stability monitoring | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
+| **Apple Xcode Organizer** | Crash reporting and diagnostics | [apple.com/privacy](https://www.apple.com/privacy/) |
 
-We do **not** use any advertising SDKs, analytics trackers, or data brokers.
+We do **not** use advertising SDKs, data brokers, or cross-app tracking.
 
 ---
 
@@ -93,7 +94,7 @@ Under the **New Zealand Privacy Act 2020**, you have the right to:
 
 - **Access**: Request a copy of the personal information we hold about you.
 - **Correction**: Request correction of any inaccurate personal information.
-- **Deletion**: Request deletion of your account and associated personal data by emailing us from the address linked to your Servo account with the subject line "Account deletion request". Note: fuel prices you have submitted are anonymised community data and will not be deleted, as they no longer contain personally identifiable information.
+- **Deletion**: Delete your account in the App from Profile → Delete Account. You may also contact us for deletion support. Note: fuel prices you have submitted may be retained as anonymised community data when they no longer contain personally identifiable information.
 
 To exercise any of these rights, contact us at the address below. We will respond within 20 working days as required by the Privacy Act 2020.
 
