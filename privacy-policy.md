@@ -15,10 +15,10 @@ By using the App, you agree to the collection and use of information as describe
 ## 1. Information We Collect
 
 ### 1.1 Location Data
-- **What**: Your device's approximate location (latitude and longitude).
+- **What**: Your device's precise location (latitude and longitude).
 - **When**: Only while the App is in use and you have granted location permission.
-- **Why**: To find nearby fuel stations, sort stations by distance, and display your location on the map.
-- **Note**: You can use the App without granting location permission, but location-based features (distance sorting, nearby stations) will be unavailable.
+- **Why**: To find nearby fuel stations, sort stations by distance, display your location on the map, and limit Widget results to your selected search radius. When you submit a price, the current coordinates may be sent with that submission for verification and abuse prevention.
+- **Note**: Your last known location and selected search radius are stored locally in Servo's shared App Group so the Widget can calculate nearby results. You can use the App without granting location permission, but location-based features and nearby Widget results will be unavailable.
 
 ### 1.2 User Account Information
 - **What**: Email address and display name (if you create an account).

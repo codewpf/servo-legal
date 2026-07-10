@@ -55,7 +55,7 @@
   **Q: Servo isn't showing nearby stations.**
   A: Check that location access is enabled:
   **Settings → Privacy & Security → Location Services → Servo → "While Using the App"**.
-  Servo only uses your location to display nearby stations and never shares it.
+  Servo uses your location for nearby station sorting and Widget results. The last known location and selected radius are stored locally for the Widget; coordinates may also accompany a price submission as described in the Privacy Policy.
 
   **Q: Can I use Servo without granting location access?**
   A: Yes. You can search and browse stations manually without sharing your location.
