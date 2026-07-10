@@ -68,7 +68,10 @@
   A: Only when you choose to submit a price update with an existing photo. Servo never accesses your library otherwise.
 
   **Q: Does Servo send every price-board photo to an AI service?**
-  A: No. Servo first tries to recognise prices entirely on your device. If that is not sufficient, Servo asks before uploading that photo to our backend and sending it to Google Gemini for fuel-price recognition. You can choose **Enter Manually** instead; in that case, the photo is not uploaded for server AI processing. Photos are not displayed publicly.
+  A: No. Servo first tries to recognise prices entirely on your device. If that is not sufficient, Servo asks before uploading the photo to our backend and sending it to Google Gemini. You can choose AI for that photo only, remember **Always Use AI**, or choose **Enter Manually**. If you enable the default AI option, later photos that local recognition cannot read are processed automatically. You can turn the option off at any time in **Profile → Settings** to return to being asked each time. Photos are not displayed publicly.
+
+  **Q: Why does the Update Prices page say the camera is unavailable?**
+  A: Camera access has been denied or restricted, so Servo will not open the camera automatically. Open **Settings → Servo → Camera** to enable access. You can still choose an existing photo or enter prices manually.
 
   ---
 
