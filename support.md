@@ -30,17 +30,20 @@
   A: Servo currently focuses exclusively on New Zealand petrol stations. Support for additional regions may come in the future.
 
   **Q: Do I need an account to use Servo?**
-  A: No. Browsing stations and prices works without an account. An account is only needed if you want to submit price updates to the community.
+  A: No. Browsing stations and prices works without an account. An account is needed to submit price updates, report incorrect data, and track reports.
 
   ---
 
   ### Prices & Stations
 
   **Q: Why does a station show an outdated price?**
-  A: Prices come from a mix of partner data and community submissions. If a price looks wrong, pull down on the station detail page to refresh, or submit an update yourself to help other drivers.
+  A: Fuel prices are structured observations submitted by Servo users and may become outdated or incorrect. Pull down to refresh. If the displayed price is still wrong, open the station, tap **Report**, choose **Incorrect fuel price**, and select the exact price.
 
   **Q: How do I submit a price update?**
-  A: Open any station → tap **Update Price** → either take/select a photo of the price board, or enter the price manually. Submissions are reviewed before going live.
+  A: Open any station → tap **Update Price** → either take/select a photo of the price board, or enter the price manually. A valid submission may become visible after server-side format, range, account, and rate-limit checks, and remains subject to reporting and moderation.
+
+  **Q: How do I report an incorrect price or station problem?**
+  A: Open the station and tap **Report**. Sign in if requested, choose the exact displayed price or station issue, select a reason, and submit. Servo aims to perform the first review within 24 hours. You can see the safe status and outcome in **Profile → My Reports**. Your identity and private details are not shown to the price contributor or other users.
 
   **Q: A station I know is missing. Can you add it?**
   A: Yes — please email us with the station name, brand, and approximate location, and we'll add it in the next data sync.
@@ -99,4 +102,4 @@
 
   ---
 
-  *Last updated: July 10, 2026*
+  *Last updated: July 11, 2026*

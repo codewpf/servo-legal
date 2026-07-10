@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Last updated: July 10, 2026**
+**Last updated: July 11, 2026**
 
 Servo ("we", "our", or "us") operates the Servo – NZ Fuel Prices mobile application (the "App"). This Privacy Policy explains how we collect, use, store, and protect your information when you use the App.
 
@@ -30,7 +30,13 @@ By using the App, you agree to the collection and use of information as describe
 - **When**: When you choose to submit a price update.
 - **Why**: To provide up-to-date fuel price information to all users. Servo first attempts OCR entirely on your device. If local recognition is not sufficient and you have not enabled the default AI setting, the App explains that the photo can be uploaded to our backend and sent to **Google Gemini**. You may choose **Use AI This Time**, **Always Use AI**, or **Enter Manually**. **Always Use AI** saves a local preference so later photos that local recognition cannot read are sent for server AI processing automatically. You can also enable or disable this preference at any time in Profile. If you choose **Enter Manually**, the photo is not uploaded for server AI processing. Submitted photos are used only for price recognition, verification, and abuse prevention, and are not displayed publicly.
 
-### 1.4 Device and Usage Data
+### 1.4 Reports and Moderation Records
+- **What**: Your account identifier, the station or specific displayed price you report, a fixed reason, an optional suggested price, and optional private details of up to 300 characters. We also retain a server-generated snapshot of the reported station or price so the report remains understandable if the public data later changes.
+- **When**: When a signed-in user chooses **Report** on a station page, withdraws a report, or adds requested information.
+- **Why**: To investigate inaccurate data, respond to the reporter, prevent abusive submissions, apply or reverse moderation actions, and maintain an audit record.
+- **Visibility**: Other users and the price contributor cannot see your identity or private report details. Only the reporter can read the reporter-facing record; restricted operators can access the moderation queue and audit information.
+
+### 1.5 Device and Usage Data
 - **What**: Device model, operating system version, app version, diagnostics, and crash reports.
 - **When**: Automatically during app usage.
 - **Why**: To diagnose technical issues and improve app performance.
@@ -45,6 +51,8 @@ We use the information we collect to:
 - Sort stations by distance from your location
 - Enable user accounts and personalised features
 - Process and display user-submitted fuel prices
+- Receive, investigate, and respond to reports about prices or station information
+- Prevent abusive price submissions and reports, and audit moderation actions
 - Improve app performance and fix bugs
 - Comply with legal obligations
 
@@ -60,7 +68,7 @@ We do **not** use your information for:
 - **Backend**: Your data is stored on [Supabase](https://supabase.com), which uses Amazon Web Services (AWS) infrastructure with encryption at rest and in transit.
 - **Region**: Data is stored in the AWS Sydney (ap-southeast-2) region.
 - **Security**: We implement row-level security (RLS) policies to ensure users can only access their own data. All API communication uses HTTPS/TLS encryption.
-- **Retention**: Account data is retained while your account is active. You may delete your account in the App at any time (see Section 6).
+- **Retention**: Account data is retained while your account is active. You may delete your account in the App at any time (see Section 6). Price observations may remain as anonymised community data. Reports and moderation audit records may also be retained after account deletion with the account identifier removed, for data integrity, abuse prevention, dispute handling, and legal or security obligations, and are removed or anonymised when no longer reasonably necessary.
 
 ---
 
@@ -83,9 +91,7 @@ We do **not** use advertising SDKs, data brokers, or cross-app tracking.
 
 ## 5. Data Sources
 
-Fuel station location and baseline pricing data is sourced from the **Ministry of Business, Innovation and Employment (MBIE)**, New Zealand Government, and is used under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) licence.
-
-User-submitted prices supplement and update this data.
+Fuel prices displayed by Servo are structured observations submitted by Servo users. Station-directory information is maintained as operational reference data. Servo does not describe its fuel-price observations as official government price data.
 
 ---
 
@@ -95,7 +101,7 @@ Under the **New Zealand Privacy Act 2020**, you have the right to:
 
 - **Access**: Request a copy of the personal information we hold about you.
 - **Correction**: Request correction of any inaccurate personal information.
-- **Deletion**: Delete your account in the App from Profile → About Servo → Account → Delete Account. You may also contact us for deletion support. Note: fuel prices you have submitted may be retained as anonymised community data when they no longer contain personally identifiable information.
+- **Deletion**: Delete your account in the App from Profile → About Servo → Account → Delete Account. You may also contact us for deletion support. Fuel prices may remain as anonymised community data. Reporter identifiers are removed from retained reports when the account is deleted; non-identifying report and audit data may remain for the purposes described in Section 3.
 
 To exercise any of these rights, contact us at the address below. We will respond within 20 working days as required by the Privacy Act 2020.
 
