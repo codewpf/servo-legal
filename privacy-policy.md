@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Last updated: July 8, 2026**
+**Last updated: July 10, 2026**
 
 Servo ("we", "our", or "us") operates the Servo – NZ Fuel Prices mobile application (the "App"). This Privacy Policy explains how we collect, use, store, and protect your information when you use the App.
 
@@ -28,7 +28,7 @@ By using the App, you agree to the collection and use of information as describe
 ### 1.3 User-Submitted Content (UGC)
 - **What**: Fuel prices you submit, including optional photos of price boards.
 - **When**: When you choose to submit a price update.
-- **Why**: To provide up-to-date fuel price information to all users. Servo first attempts on-device OCR. If local recognition is not sufficient, the image may be sent to our backend for server-side price recognition. Submitted photos are used only for price recognition, verification, and abuse prevention, and are not displayed publicly.
+- **Why**: To provide up-to-date fuel price information to all users. Servo first attempts OCR entirely on your device. If local recognition is not sufficient, the App shows a disclosure for that photo. Only if you choose **Use AI Recognition** will the photo be uploaded to our backend and sent to **Google Gemini** to identify fuel prices. If you choose **Enter Manually**, the photo is not uploaded for server AI processing. Submitted photos are used only for price recognition, verification, and abuse prevention, and are not displayed publicly.
 
 ### 1.4 Device and Usage Data
 - **What**: Device model, operating system version, app version, diagnostics, and crash reports.
@@ -73,6 +73,7 @@ We use the following third-party services:
 | **Supabase** | Backend, authentication, database | [supabase.com/privacy](https://supabase.com/privacy) |
 | **Apple Sign In** | Authentication | [apple.com/privacy](https://www.apple.com/privacy/) |
 | **Google Sign In** | Authentication (via Supabase Auth) | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| **Google Gemini** | Optional AI-assisted fuel price recognition after per-photo consent | [policies.google.com/privacy](https://policies.google.com/privacy) |
 | **Firebase Crashlytics** | Crash diagnostics and stability monitoring | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
 | **Apple Xcode Organizer** | Crash reporting and diagnostics | [apple.com/privacy](https://www.apple.com/privacy/) |
 

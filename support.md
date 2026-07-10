@@ -67,8 +67,8 @@
   **Q: Why does Servo ask for photo library access?**
   A: Only when you choose to submit a price update with an existing photo. Servo never accesses your library otherwise.
 
-  **Q: What happens to photos I submit?**
-  A: Photos are used solely to verify the price you submit. They are not shared publicly without review.
+  **Q: Does Servo send every price-board photo to an AI service?**
+  A: No. Servo first tries to recognise prices entirely on your device. If that is not sufficient, Servo asks before uploading that photo to our backend and sending it to Google Gemini for fuel-price recognition. You can choose **Enter Manually** instead; in that case, the photo is not uploaded for server AI processing. Photos are not displayed publicly.
 
   ---
 
@@ -96,4 +96,4 @@
 
   ---
 
-  *Last updated: July 2026*
+  *Last updated: July 10, 2026*
