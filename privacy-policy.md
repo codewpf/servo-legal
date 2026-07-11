@@ -69,7 +69,7 @@ We do **not** use your information for:
 - **Backend**: Your data is stored on [Supabase](https://supabase.com), which uses Amazon Web Services (AWS) infrastructure with encryption at rest and in transit.
 - **Region**: Data is stored in the AWS Seoul (ap-northeast-2) region.
 - **Security**: We implement row-level security (RLS) policies to ensure users can only access their own data. All API communication uses HTTPS/TLS encryption.
-- **Retention**: Account data is retained while your account is active. You may delete your account in the App at any time (see Section 6). Price observations may remain as anonymised community data. Reports and moderation audit records may also be retained after account deletion with the account identifier removed, for data integrity, abuse prevention, dispute handling, and legal or security obligations, and are removed or anonymised when no longer reasonably necessary.
+- **Retention**: Account data is retained while your account is active. You may delete your account in the App at any time (see Section 6). Account identifiers, profile data, preferences, confirmations, and reports submitted by that account are deleted. Fuel-price observations already submitted remain as public community data with the account identifier removed. Report-owned moderation records are deleted with the report; non-identifying records arising from reports submitted by other users may remain for data integrity, abuse prevention, dispute handling, and legal or security obligations.
 - **AI photos**: Servo does not persist server-AI photos in its backend. The resized image exists only for the authenticated recognition request and is released when processing finishes or fails. Google Gemini's handling of the transmitted image is governed by Google's privacy terms.
 
 ---
@@ -103,7 +103,7 @@ Under the **New Zealand Privacy Act 2020**, you have the right to:
 
 - **Access**: Request a copy of the personal information we hold about you.
 - **Correction**: Request correction of any inaccurate personal information.
-- **Deletion**: Delete your account in the App from Profile → About Servo → Account → Delete Account. You may also contact us for deletion support. Fuel prices may remain as anonymised community data. Reporter identifiers are removed from retained reports when the account is deleted; non-identifying report and audit data may remain for the purposes described in Section 3.
+- **Deletion**: Delete your account in the App from Profile → About Servo → Account → Delete Account. You may also contact us for deletion support. Account identifiers, profile data, account preferences, confirmations, and reports submitted by the account are deleted. Previously submitted fuel-price observations remain as public community data with `submitted_by` removed. If the account used Sign in with Apple, Servo asks for fresh Apple authorization so it can revoke the associated Apple token before deleting the account.
 
 To exercise any of these rights, contact us at the address below. We will respond within 20 working days as required by the Privacy Act 2020.
 
@@ -129,4 +129,4 @@ If you have any questions about this Privacy Policy or wish to exercise your rig
 
 ---
 
-*This privacy policy complies with the New Zealand Privacy Act 2020 and Apple's App Store Review Guidelines.*
+*This policy is intended to describe Servo's current data practices alongside applicable New Zealand law and Apple's App Store requirements. It is not legal advice.*
