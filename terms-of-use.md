@@ -125,4 +125,4 @@ If you have any questions about these Terms, please contact us at:
 
 ---
 
-*These terms comply with New Zealand consumer protection laws and Apple's App Store Review Guidelines.*
+*These terms are intended to operate alongside applicable New Zealand law and Apple's App Store requirements. They are not legal advice.*
