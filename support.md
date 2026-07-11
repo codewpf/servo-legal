@@ -30,17 +30,20 @@
   A: Servo currently focuses exclusively on New Zealand petrol stations. Support for additional regions may come in the future.
 
   **Q: Do I need an account to use Servo?**
-  A: No. Browsing stations and prices works without an account. An account is only needed if you want to submit price updates to the community.
+  A: No. Browsing stations and prices works without an account. An account is needed to submit price updates, report incorrect data, and track reports.
 
   ---
 
   ### Prices & Stations
 
   **Q: Why does a station show an outdated price?**
-  A: Prices come from a mix of partner data and community submissions. If a price looks wrong, pull down on the station detail page to refresh, or submit an update yourself to help other drivers.
+  A: Fuel prices are structured observations submitted by Servo users and may become outdated or incorrect. Reopen the station to load the latest available price. If the displayed price is still wrong, tap **Report**, choose **Incorrect fuel price**, and select the exact price.
 
   **Q: How do I submit a price update?**
-  A: Open any station → tap **Update Price** → either take/select a photo of the price board, or enter the price manually. Submissions are reviewed before going live.
+  A: Open any station → tap **Update Price** → either take/select a photo of the price board, or enter the price manually. A valid submission may become visible after server-side format, range, account, and rate-limit checks, and remains subject to reporting and moderation.
+
+  **Q: How do I report an incorrect price or station problem?**
+  A: Open the station and tap **Report**. Sign in if requested, choose the exact displayed price or station issue, select a reason, and submit. Servo aims to perform the first review within 24 hours. You can see the safe status and outcome in **Profile → My Reports**. Your identity and private details are not shown to the price contributor or other users.
 
   **Q: A station I know is missing. Can you add it?**
   A: Yes — please email us with the station name, brand, and approximate location, and we'll add it in the next data sync.
@@ -68,7 +71,7 @@
   A: Only when you choose to submit a price update with an existing photo. Servo never accesses your library otherwise.
 
   **Q: Does Servo send every price-board photo to an AI service?**
-  A: No. Servo first tries to recognise prices entirely on your device. If that is not sufficient, Servo asks before uploading the photo to our backend and sending it to Google Gemini. You can choose AI for that photo only, remember **Always Use AI**, or choose **Enter Manually**. If you enable the default AI option, later photos that local recognition cannot read are processed automatically. You can turn the option off at any time in **Profile → Settings** to return to being asked each time. Photos are not displayed publicly.
+  A: No. Servo first tries to recognise prices entirely on your device. If that is not sufficient, Servo asks before sending the photo through our backend to Google Gemini. You can choose AI for that photo only, remember **Always Use AI**, or choose **Enter Manually**. If you enable the default AI option, later photos that local recognition cannot read are processed automatically. You can turn the option off at any time in **Profile → Settings** to return to being asked each time. Servo processes the resized JPEG in memory and does not save a backend copy in Supabase Storage. Photos are not displayed publicly. Google's handling of the transmitted image is governed by its privacy terms.
 
   **Q: Why does the Update Prices page say the camera is unavailable?**
   A: Camera access has been denied or restricted, so Servo will not open the camera automatically. Open **Settings → Servo → Camera** to enable access. You can still choose an existing photo or enter prices manually.
@@ -99,4 +102,4 @@
 
   ---
 
-  *Last updated: July 10, 2026*
+  *Last updated: July 11, 2026*

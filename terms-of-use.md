@@ -4,7 +4,7 @@ title: Terms of Use
 
 # Terms of Use
 
-**Last updated: July 8, 2026**
+**Last updated: July 11, 2026**
 
 Welcome to Servo – NZ Fuel Prices ("the App"). By downloading, accessing, or using the App, you agree to be bound by these Terms of Use ("Terms"). If you do not agree, please do not use the App.
 
@@ -12,7 +12,7 @@ Welcome to Servo – NZ Fuel Prices ("the App"). By downloading, accessing, or u
 
 ## 1. About Servo
 
-Servo is a free mobile application that displays fuel prices at petrol stations across New Zealand. Prices are sourced from government data (MBIE) and supplemented by user contributions.
+Servo is a free mobile application that displays petrol stations and recent fuel-price observations across New Zealand. Fuel prices displayed by Servo are structured observations submitted by Servo users.
 
 ---
 
@@ -43,10 +43,11 @@ When submitting prices, you agree to:
 - **Not** submit content that is offensive, harmful, or violates any law.
 
 ### 4.3 Moderation
-- Servo uses a community confirmation mechanism where other users can verify submitted prices.
-- We reserve the right to remove, modify, or reject any user-submitted content at our discretion.
-- Automated systems may flag and remove suspicious or outlier submissions.
-- Repeated submission of false information may result in account suspension.
+- A submitted price may become visible after server-side format, range, account, and rate-limit checks. Appearance in the App does not mean Servo has independently verified it.
+- Signed-in users can report a specific displayed price or a station-data problem from the station page. The reporter can track the safe outcome in **Profile → My Reports**.
+- Reports are reviewed through a restricted moderation queue. Servo may hide or restore a price, correct or close a station record, request more information, or take no action.
+- Servo may warn or restrict accounts that repeatedly submit false prices or abusive reports. Serious or repeated abuse may result in account suspension or termination.
+- Reporter notes, contributor identity, reviewer identity, and internal moderation notes are not shown publicly.
 
 ---
 
@@ -85,15 +86,15 @@ To the maximum extent permitted by New Zealand law (including the Consumer Guara
 
 ## 8. Data Sources and Attribution
 
-- Station and baseline price data is sourced from the **Ministry of Business, Innovation and Employment (MBIE)**, used under **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.
-- User-contributed prices are clearly identified as community-submitted data.
+- Fuel prices displayed by Servo are structured observations submitted by Servo users.
+- Station-directory information is maintained as operational reference data and may contain errors. Users can report incorrect or missing station information from the relevant station page.
+- Servo does not claim that its fuel-price observations are official government price data.
 
 ---
 
 ## 9. Intellectual Property
 
 - The Servo name, logo, and App design are our intellectual property.
-- MBIE data is used under CC BY 4.0 and remains the property of the New Zealand Government.
 - Third-party brand logos (BP, Z Energy, Mobil, etc.) are trademarks of their respective owners and are used for identification purposes only.
 
 ---
