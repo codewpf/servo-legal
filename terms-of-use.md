@@ -25,6 +25,7 @@ The App is rated 4+ on the App Store and is available for general use. Account c
 ## 3. User Accounts
 
 - You may create an account using email, Apple Sign In, or Google Sign In.
+- Before creating an account, you must actively confirm that you have read and agree to these Terms and the Privacy Policy. Servo records the accepted document version and acceptance time as account metadata.
 - You are responsible for maintaining the security of your account credentials.
 - You may delete your account at any time from the App by opening Profile → About Servo → Account → Delete Account. You may also contact us if you need deletion support. Account details, preferences, confirmations, and reports submitted by the account are deleted. Fuel-price observations already submitted remain as public community data without the account identifier.
 
