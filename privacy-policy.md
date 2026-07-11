@@ -28,7 +28,8 @@ By using the App, you agree to the collection and use of information as describe
 ### 1.3 User-Submitted Content (UGC)
 - **What**: Fuel prices you submit, including optional photos of price boards.
 - **When**: When you choose to submit a price update.
-- **Why**: To provide up-to-date fuel price information to all users. Servo first attempts OCR entirely on your device. If local recognition is not sufficient and you have not enabled the default AI setting, the App explains that the photo can be uploaded to our backend and sent to **Google Gemini**. You may choose **Use AI This Time**, **Always Use AI**, or **Enter Manually**. **Always Use AI** saves a local preference so later photos that local recognition cannot read are sent for server AI processing automatically. You can also enable or disable this preference at any time in Profile. If you choose **Enter Manually**, the photo is not uploaded for server AI processing. Submitted photos are used only for price recognition, verification, and abuse prevention, and are not displayed publicly.
+- **Why**: To provide up-to-date fuel price information to all users. Servo first attempts OCR entirely on your device. If local recognition is not sufficient and you have not enabled the default AI setting, the App explains that the photo can be sent through our backend to **Google Gemini**. You may choose **Use AI This Time**, **Always Use AI**, or **Enter Manually**. **Always Use AI** saves a local preference so later photos that local recognition cannot read are sent for server AI processing automatically. You can also enable or disable this preference at any time in Profile. If you choose **Enter Manually**, the photo is not sent for server AI processing.
+- **Photo storage**: Servo sends the resized JPEG in the authenticated recognition request and processes it in memory. Servo does not save a copy in Supabase Storage or associate the photo with the submitted price. The photo is not displayed publicly. Google processes the image under its own privacy terms as listed in Section 4.
 
 ### 1.4 Reports and Moderation Records
 - **What**: Your account identifier, the station or specific displayed price you report, a fixed reason, an optional suggested price, and optional private details of up to 300 characters. We also retain a server-generated snapshot of the reported station or price so the report remains understandable if the public data later changes.
@@ -66,9 +67,10 @@ We do **not** use your information for:
 ## 3. Data Storage and Security
 
 - **Backend**: Your data is stored on [Supabase](https://supabase.com), which uses Amazon Web Services (AWS) infrastructure with encryption at rest and in transit.
-- **Region**: Data is stored in the AWS Sydney (ap-southeast-2) region.
+- **Region**: Data is stored in the AWS Seoul (ap-northeast-2) region.
 - **Security**: We implement row-level security (RLS) policies to ensure users can only access their own data. All API communication uses HTTPS/TLS encryption.
 - **Retention**: Account data is retained while your account is active. You may delete your account in the App at any time (see Section 6). Price observations may remain as anonymised community data. Reports and moderation audit records may also be retained after account deletion with the account identifier removed, for data integrity, abuse prevention, dispute handling, and legal or security obligations, and are removed or anonymised when no longer reasonably necessary.
+- **AI photos**: Servo does not persist server-AI photos in its backend. The resized image exists only for the authenticated recognition request and is released when processing finishes or fails. Google Gemini's handling of the transmitted image is governed by Google's privacy terms.
 
 ---
 
@@ -81,7 +83,7 @@ We use the following third-party services:
 | **Supabase** | Backend, authentication, database | [supabase.com/privacy](https://supabase.com/privacy) |
 | **Apple Sign In** | Authentication | [apple.com/privacy](https://www.apple.com/privacy/) |
 | **Google Sign In** | Authentication (via Supabase Auth) | [policies.google.com/privacy](https://policies.google.com/privacy) |
-| **Google Gemini** | Optional AI-assisted fuel price recognition after one-time or remembered, revocable consent | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| **Google Gemini** | Optional AI-assisted fuel price recognition after one-time or remembered, revocable consent; Servo does not retain a backend copy of the transmitted photo | [policies.google.com/privacy](https://policies.google.com/privacy) |
 | **Firebase Crashlytics** | Crash diagnostics and stability monitoring | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
 | **Apple Xcode Organizer** | Crash reporting and diagnostics | [apple.com/privacy](https://www.apple.com/privacy/) |
 
