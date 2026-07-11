@@ -27,7 +27,7 @@ The App is rated 4+ on the App Store and is available for general use. Account c
 - You may create an account using email, Apple Sign In, or Google Sign In.
 - Before creating an account, you must actively confirm that you have read and agree to these Terms and the Privacy Policy. Servo records the accepted document version and acceptance time as account metadata.
 - You are responsible for maintaining the security of your account credentials.
-- You may delete your account at any time from the App by opening Profile → About Servo → Account → Delete Account. You may also contact us if you need deletion support. Account details, preferences, confirmations, and reports submitted by the account are deleted. Fuel-price observations already submitted remain as public community data without the account identifier.
+- You may delete your account at any time from the App by opening Profile → About Servo → Account → Delete Account. You may also contact us if you need deletion support. Account details, preferences, confirmations, reports submitted by the account, and original fuel-price observations submitted by the account are deleted.
 
 ---
 
@@ -35,7 +35,7 @@ The App is rated 4+ on the App Store and is available for general use. Account c
 
 ### 4.1 Price Submissions
 - You may submit fuel prices to help keep information current.
-- By submitting a fuel-price observation, you grant Servo a non-exclusive, royalty-free, worldwide licence to use, display, and distribute that observation within the App. This licence for the fuel-price observation continues after account deletion, with the account identifier removed.
+- By submitting a fuel-price observation, you grant Servo a non-exclusive, royalty-free, worldwide licence to use, display, and distribute that observation within the App while it remains in Servo. The original observation is deleted if you delete your account.
 
 ### 4.2 Content Standards
 When submitting prices, you agree to:
