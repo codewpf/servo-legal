@@ -12,7 +12,7 @@ Welcome to Servo – NZ Fuel Prices ("the App"). By downloading, accessing, or u
 
 ## 1. About Servo
 
-Servo is a free mobile application that displays petrol stations and recent fuel-price observations across New Zealand. Fuel prices displayed by Servo are structured observations submitted by Servo users.
+Servo is a free mobile application that displays petrol stations and recent fuel-price observations across New Zealand. Displayed prices are community-contributed structured observations, including direct Servo submissions and authorized community imports.
 
 ---
 
@@ -87,9 +87,9 @@ To the maximum extent permitted by New Zealand law (including the Consumer Guara
 
 ## 8. Data Sources and Attribution
 
-- Fuel prices displayed by Servo are structured observations submitted by Servo users.
-- Station-directory information is maintained as operational reference data and may contain errors. Users can report incorrect or missing station information from the relevant station page.
-- Servo does not claim that its fuel-price observations are official government price data.
+- Fuel prices displayed by Servo are community-contributed structured observations, including direct Servo submissions and authorized community imports. Current-price surfaces show observations no older than seven days; older observations may remain in price history.
+- Station-directory information is maintained from Servo operational reference records and authorized community-contributed records and may contain errors. Some geographic fields were enriched using [OpenStreetMap](https://www.openstreetmap.org/copyright): © OpenStreetMap contributors, ODbL. Users can report incorrect or missing station information from the relevant station page.
+- Servo does not use MBIE weekly national price monitoring as its station directory or per-station price source and does not claim that its observations are official government data.
 
 ---
 
