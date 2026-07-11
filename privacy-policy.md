@@ -51,7 +51,7 @@ We use the information we collect to:
 - Display nearby fuel stations and prices
 - Sort stations by distance from your location
 - Enable user accounts and personalised features
-- Process and display user-submitted fuel prices
+- Process and display direct Servo submissions and authorized community-contributed fuel-price observations
 - Receive, investigate, and respond to reports about prices or station information
 - Prevent abusive price submissions and reports, and audit moderation actions
 - Improve app performance and fix bugs
@@ -93,7 +93,9 @@ We do **not** use advertising SDKs, data brokers, or cross-app tracking.
 
 ## 5. Data Sources
 
-Fuel prices displayed by Servo are structured observations submitted by Servo users. Station-directory information is maintained as operational reference data. Servo does not describe its fuel-price observations as official government price data.
+Fuel prices displayed by Servo are community-contributed structured observations. They include direct submissions linked to a Servo account and authorized community imports that are not linked to a Servo account. Current-price surfaces display observations no older than seven days; older observations may remain in price history, and every observation can still be incomplete or incorrect.
+
+Station-directory information is maintained from Servo operational reference records and authorized community-contributed records. Some geographic fields were enriched using [OpenStreetMap](https://www.openstreetmap.org/copyright): © OpenStreetMap contributors, available under the Open Database License (ODbL). Servo does not use MBIE weekly national price monitoring as its station directory or per-station price source and does not describe its observations as official government data.
 
 ---
 
@@ -103,7 +105,7 @@ Under the **New Zealand Privacy Act 2020**, you have the right to:
 
 - **Access**: Request a copy of the personal information we hold about you.
 - **Correction**: Request correction of any inaccurate personal information.
-- **Deletion**: Delete your account in the App from Profile → About Servo → Account → Delete Account. You may also contact us for deletion support. Account identifiers, profile data, account preferences, confirmations, reports submitted by the account, and original fuel-price observations submitted by the account are deleted. If the account used Sign in with Apple, Servo asks for fresh Apple authorization so it can revoke the associated Apple token before deleting the account.
+- **Deletion**: Delete your account in the App from Profile → About Servo → Account → Delete Account. You may also contact us for deletion support. Account identifiers, profile data, account preferences, confirmations, reports submitted by the account, and original fuel-price observations submitted by the account are deleted. Authorized community imports are not Servo account records and therefore are not affected by deletion of a Servo account. If the account used Sign in with Apple, Servo asks for fresh Apple authorization so it can revoke the associated Apple token before deleting the account.
 
 To exercise any of these rights, contact us at the address below. We will respond within 20 working days as required by the Privacy Act 2020.
 
