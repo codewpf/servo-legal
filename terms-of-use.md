@@ -87,7 +87,7 @@ To the maximum extent permitted by New Zealand law (including the Consumer Guara
 
 ## 8. Data Sources and Attribution
 
-- Fuel prices displayed by Servo are community-contributed structured observations, including direct Servo submissions and authorized community imports. Current-price surfaces show observations no older than seven days; older observations may remain in price history.
+- Fuel prices displayed by Servo are community-contributed structured observations, including direct Servo submissions and authorized community imports. Current-price surfaces show observations no older than thirty days; older observations may remain in price history.
 - Station-directory information is maintained from Servo operational reference records and authorized community-contributed records and may contain errors. Some geographic fields were enriched using [OpenStreetMap](https://www.openstreetmap.org/copyright): © OpenStreetMap contributors, ODbL. Users can report incorrect or missing station information from the relevant station page.
 - Servo does not use MBIE weekly national price monitoring as its station directory or per-station price source and does not claim that its observations are official government data.
 

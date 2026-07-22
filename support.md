@@ -37,7 +37,7 @@
   ### Prices & Stations
 
   **Q: Why does a station show an outdated price?**
-  A: Fuel prices are community-contributed structured observations from direct Servo submissions and authorized community imports. Current-price screens exclude observations older than seven days, but displayed observations can still be incomplete or incorrect. Reopen the station to load the latest available observation. If it is wrong, tap **Report**, choose **Incorrect fuel price**, and select the exact price.
+  A: Fuel prices are community-contributed structured observations from direct Servo submissions and authorized community imports. Current-price screens exclude observations older than thirty days, but displayed observations can still be incomplete or incorrect. Reopen the station to load the latest available observation. If it is wrong, tap **Report**, choose **Incorrect fuel price**, and select the exact price.
 
   **Q: How do I submit a price update?**
   A: Open any station → tap **Update Price** → either take/select a photo of the price board, or enter the price manually. A valid submission may become visible after server-side format, range, account, and rate-limit checks, and remains subject to reporting and moderation.
