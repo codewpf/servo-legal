@@ -93,7 +93,7 @@ We do **not** use advertising SDKs, data brokers, or cross-app tracking.
 
 ## 5. Data Sources
 
-Fuel prices displayed by Servo are community-contributed structured observations. They include direct submissions linked to a Servo account and authorized community imports that are not linked to a Servo account. Current-price surfaces display observations no older than seven days; older observations may remain in price history, and every observation can still be incomplete or incorrect.
+Fuel prices displayed by Servo are community-contributed structured observations. They include direct submissions linked to a Servo account and authorized community imports that are not linked to a Servo account. Current-price surfaces display observations no older than thirty days; older observations may remain in price history, and every observation can still be incomplete or incorrect.
 
 Station-directory information is maintained from Servo operational reference records and authorized community-contributed records. Some geographic fields were enriched using [OpenStreetMap](https://www.openstreetmap.org/copyright): © OpenStreetMap contributors, available under the Open Database License (ODbL). Servo does not use MBIE weekly national price monitoring as its station directory or per-station price source and does not describe its observations as official government data.
 
